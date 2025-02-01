@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+    <main>
+        <!-- header -->
+        <header class="flex flex-row justify-between border border-[#0000001A]/10 py-6 px-20  ">
+            <div>
+                <img src="../assets/logo.svg" alt="logo"/>
+            </div>
+            <nav>
+                <ul class="flex flex-row gap-x-10">
+                    <li><a class="hh" href="./index.html">Home</a></li>
+                    <li><a href="./recipes.html">Recipes</a></li>
+                    <li><a class=" hh active:text-red-500" href="./contact.html">Contact</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a class="hh" href="./blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="flex flex-row gap-x-10">
+                <img src="../assets/facebook.svg" alt="facebook"/>
+                <img src="../assets/twitter.svg" alt="twitter"/>
+                <img src="../assets/instagram.svg" alt="instagram"/>
+            </div>
+        </header>
+
+        <!-- hero section -->
+        <section class="relative px-20 py-6 grid grid-cols-12 mt-5">
+            <img class="absolute left-[46%] top-16" src="../assets/heroBadge.svg" alt="badge"/>
+            <div class="col-span-6 bg-[#E7FAFE] rounded-l-[2rem] px-10 py-8">
+               <div class="bg-white shadow-sm rounded-3xl flex flex-row gap-x-3 items-center px-5 py-2 w-fit">
+                 <img src="../assets/hotRecipe.svg" alt="hotRecipe"/>
+                 <p class="text-black text-sm font-bold">Hot Recipes</p>
+               </div>
+               <div class="mt-7">
+                <h2 class="text-5xl text-black font-bold">Spicy delicious chicken wings</h2>
+                <p class="mt-5 text-[#00000099] leading-6 text-sm">
+                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
+                </p>
+               </div>
+               <div class="flex mt-6 gap-x-5">
+                 <div class="rounded-[1.7rem] bg-[#0000000D] shadow-sm flex items-center gap-x-3 px-5 py-2">
+                    <img src="../assets/Timer.svg" alt="timer"/>
+                    <p>30 minutes</p>
+                 </div>
+                 <div class="rounded-[1.7rem] bg-[#0000000D] shadow-sm flex items-center gap-x-3 px-5 py-2">
+                    <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                    <p>Chicken</p>
+                 </div>
+               </div>
+
+               <div class="flex justify-between items-center mt-24">
+                  <div class="flex items-center gap-x-3">
+                    <img src="../assets/user1.svg" alt="user"/>
+                    <div>
+                        <h2 class="text-black font-bold">John Smith</h2>
+                        <p class="text-sm">15 March 2022</p>
+                    </div>
+                  </div>
+                  <div class="flex flex-row items-center gap-x-3 bg-black px-7 py-3 rounded-xl">
+                    <h3 class="text-white text-xs">View Receipts</h3>
+                    <img src="../assets/PlayCircle.svg" alt="playCircle"/>
+                  </div>
+               </div>
+            </div>
+            <div class="col-span-6">
+             <img src="../assets/heroImage.svg" alt="hero image"/>
+            </div>
+        </section>
+        <!-- category section -->
+         <section class="mt-10 py-6 px-20">
+            <div class="flex flex-row justify-between items-center">
+                <h2 class="text-black text-4xl font-semibold">Categories</h2>
+                <div class="rounded-xl bg-[#E7FAFE] shadow-sm flex items-center gap-x-3 px-5 py-3">
+                    <p>View All Categories</p>
+                 </div>
+            </div>
+            <div class="grid grid-cols-6 gap-x-10 mt-10">
+                <!-- each item -->
+                 <div class="bg-gradient-to-b from-[#708246]/0 to-[#708246]/10 h-32 py-4 px-4 rounded-b-3xl ">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category1.svg" alt=""/>
+                        <img src="../assets/cate1shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                    <p class="mt-5 text-xs font-bold text-center">Breakfast</p>
+                 </div>
+                 <!-- each item -->
+                 <div class="bg-gradient-to-b from-[#6CC63F]/0 to-[#6CC63F]/10 h-32 py-4 px-4 rounded-b-3xl">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category7.svg" alt=""/>
+                        <img src="../assets/cate7shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                    <p class="mt-5 text-xs font-bold text-center">Vegan</p>
+                 </div>
+                 <!-- each item -->
+                 <div class="bg-gradient-to-b from-[#CC261B]/0 to-[#CC261B]/10 h-32 py-4 px-4 rounded-b-3xl">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category2.svg" alt=""/>
+                        <img src="../assets/cate3shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                   
+                    <p class="mt-5 text-xs font-bold text-center">Meat</p>
+                 </div>
+                  <!-- each item -->
+                  <div class="bg-gradient-to-b from-[#F09E00]/0 to-[#F09E00]/10 h-32 py-4 px-4 rounded-b-3xl">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category3.svg" alt=""/>
+                        <img src="../assets/cate4shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                    <p class="mt-5 text-xs font-bold text-center">Dessert</p>
+                 </div>
+                 <!-- each item -->
+                 <div class="bg-gradient-to-b from-[#000000]/0 to-[#000000]/5 h-32 py-4 px-4 rounded-b-3xl">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category4.svg" alt=""/>
+                        <img src="../assets/cate5shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                    <p class="mt-5 text-xs font-bold text-center">Lunch</p>
+                 </div>
+                  <!-- each item -->
+                  <div class="bg-gradient-to-b from-[#000000]/0 to-[#000000]/5 h-32 py-4 px-4 rounded-b-3xl">
+                    <div class="relative -mt-10">
+                        <img src="../assets/category5.svg" alt=""/>
+                        <img src="../assets/cate6shadow.svg" alt="" class="absolute top-4 left-4"/>
+                    </div>
+                    <p class="mt-5 text-xs font-bold text-center">Chocolate</p>
+                 </div>
+            </div>
+         </section>
+
+         <!-- recipe section -->
+         <section class="mt-24 px-20 py-6">
+           <div>
+            <h2 class="text-center font-semibold text-black text-4xl">Simple and tasty recipes</h2>
+            <p class="text-center text-sm text-[#000000]/60 mt-5 max-w-[600px] mx-auto">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
+           </div>
+
+           <div class="grid grid-cols-3 gap-x-10 mt-10">
+            <!-- first item -->
+                <div class= " relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/red love.svg" alt="redlove"/>
+                    <div>
+                        <img src="../assets/Recipe(1).svg" alt="recipe1"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[21px] font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Snack</p>
+                        </div>
+                    </div>
+                </div>
+
+   <!-- second recipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe2.svg" alt="Recipe2"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[19px] font-semibold mt-4">Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Fish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third recipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Receipe3.svg" alt="Recipe3"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[21px] font-semibold mt-4">Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Breakfast</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fourth recipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe4.svg" alt="Recipe4"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[21px] font-semibold mt-4">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Healthy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fifth recipe -->
+                <div class="relative mt-6 px-5 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe 5.svg" alt="Recipe5"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[21px] font-semibold mt-4">Chicken Meatballs with Cream Cheese</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Meat</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- sixth recipe -->
+                <div class="mt-5">
+                    <div>
+                        <img class="py-1" src="../assets/Recipe6.svg" alt="Recipe6"/>
+                    </div>
+                </div>
+
+                <!-- seventh recipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe 7.svg" alt="Recipe7"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[21px] font-semibold mt-4">Fruity Pancake with Orange & Blueberry</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Sweet</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- eighth recipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe8.svg" alt="Recipe8"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[20px] font-semibold mt-4">The Best Easy One Pot Chicken and Rice</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Snack</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ninth receipe -->
+                <div class="relative mt-6 px-4 py-3 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]/100 rounded-[1.5rem]">
+                    <img class="absolute left-[78%] top-6" src="../assets/white love.svg" alt="whitelove"/>
+                    <div>
+                        <img src="../assets/Recipe9.svg" alt="Recipe9"/>
+                    </div>
+                    <div>
+                        <h3 class="text-black text-[20px] font-semibold mt-4">The Creamiest Creamy Chicken and Bacon Pasta</h3>
+                    </div>
+                    <div class="flex mt-6 gap-x-5">
+                        <div class="flex items-center gap-x-3  py-2">
+                            <img src="../assets/Timer.svg" alt="timer"/>
+                            <p class="text-xs">30 minutes</p>
+                        </div>
+                        <div class="  flex items-center gap-x-3 py-2">
+                            <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                            <p class="text-xs">Noodles</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+         </section>
+
+         <!-- chef section -->
+         <section class="mt-10 px-20 py-6 grid grid-cols-12 mt-5">
+            <div class="col-span-6  rounded-l-[2rem] px-10 py-8">
+                <div class="bg-white shadow-sm rounded-3xl flex flex-row gap-x-3 items-center px-5 py-2 w-fit">
+                </div>
+                <div class="mt-24">
+                 <h2 class="text-4xl text-black font-semibold">Everyone can be a
+                    chef in their own kitchen</h2>
+                 <p class="mt-5 text-[#00000099] leading-6 text-[9px]">
+                    Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim 
+                 </p>
+                </div>
+ 
+                <div class=" mt-16">
+                     <button class="text-white text-xs bg-black px-7 py-4 rounded-xl">Learn More</button>
+                </div>
+             </div>
+             <div class="col-span-6">
+                <img src="../assets/chefman2.svg" alt="chefman"/>
+               </div>
+         </section>
+
+         <!-- instragram part -->
+         <div class="mt-24 px-20 py-6 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]">
+             <div>
+                <h2 class="text-center font-semibold text-black text-4xl">Check out @foodieland on Instagram</h2>
+                <p class="text-center text-xs text-[#000000]/60 mt-5 max-w-[600px] mx-auto">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
+               </div>
+
+               <div class="flex flex-row gap-x-10 mt-10">
+                <!-- first post -->
+                    <div class= " mt-6 px-4 py-3">                     
+                     <img src="../assets/IG post1.svg" alt="IGPost1"/>
+                    </div>
+
+                    <!-- second post -->
+                    <div class= " mt-6 px-4 py-3">
+                            <img src="../assets/IG Post2.svg" alt="IGPost2"/>    
+                    </div>
+
+                    <!-- third post -->
+                    <div class= " mt-6 px-4 py-3">
+                      <img src="../assets/IG Post3.svg" alt="IGPost3"/>
+                    </div>
+
+                    <!-- fourth post -->
+                    <div class= " mt-6 px-4 py-3">                       
+                      <img src="../assets/IG Post4.svg" alt="IGPost4"/>                        
+                    </div>
+               </div>
+
+               <div class="flex flex-col justify-center mx-auto mt-7 mb-7 items-center">
+                <a href="">
+                    <div class="flex flex-row  items-center gap-x-3 bg-black px-7 py-3 rounded-xl">
+                        <h3 class="text-white text-xs">Visit Our Instagram</h3>
+                        <img  src="../assets/IG Logo.svg" alt="IGlogo"/>
+                    </div> 
+                </a>               
+              </div>
+            </div>
+         </section>
+
+         <!-- delicious recipe -->
+         <section class="mt-24 px-20 py-6">
+            <div class="grid grid-cols-2 ">
+             <h2 class="text-align font-semibold text-black text-4xl">Try this delicious recipe
+                <br/> to make your day</h2>
+             <p class="text-align text-sm text-[#000000]/60 mt-5 max-w-[600px] mx-auto ml-5">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            </div>
+ 
+            <div class="grid grid-cols-4 gap-x-2 mt-10">
+             <!-- first delicious recipe -->
+                 <div class= " relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/red love.svg" alt="redlove"/>
+                     <div>
+                         <img src="../assets/delicious1.svg" alt="delicious1"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[17px] font-semibold mt-4">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Healthy</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+    <!-- second delicious recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/white love.svg" alt="whitelove"/>
+                     <div>
+                         <img src="../assets/delicious2.svg" alt="delicious2"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[17px] font-semibold mt-4">Big and Juicy Wagyu Beef Cheeseburger</h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Western</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- third delicious recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/red love.svg" alt="redlove"/>
+                     <div>
+                         <img src="../assets/delicious3.svg" alt="delicious3"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[17px] font-semibold mt-4">Healthy Japanese Fried Rice with Asparagus</h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Healthy</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- fourth recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/white love.svg" alt="whitelove"/>
+                     <div>
+                         <img src="../assets/delicious4.svg" alt="delicious4"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[17px] font-semibold mt-4">Cauliflower Walnut Vegetarian Taco Meat</h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Eastern</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- fifth delicious recipe -->
+                 <div class="relative mt-6 px-5 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/red love.svg" alt="redlove"/>
+                     <div>
+                         <img src="../assets/delicious5.svg" alt="delicious5"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[18px] font-semibold mt-4">Rainbow Chicken Salad with Almond Honey Mustard Dressing</h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Healthy</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- sixth delicious recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/white love.svg" alt="whitelove"/>
+                     <div>
+                         <img src="../assets/delicious6.svg" alt="delicious6"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[19px] font-semibold mt-4">Barbeque Spicy Sandwiches with Chips </h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Snack</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- seventh delicious recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/white love.svg" alt="whitelove"/>
+                     <div>
+                         <img src="../assets/delicious7.svg" alt="delicious8"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[17px] font-semibold mt-4">Firecracker Vegan Lettuce Wraps - Spicy! </h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Seafood</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- eighth delicious recipe -->
+                 <div class="relative mt-6 px-4 py-3 rounded-[1.5rem]">
+                     <img class="absolute left-[75%] top-5" src="../assets/red love.svg" alt="redlove"/>
+                     <div>
+                         <img src="../assets/delicious8.svg" alt="delicious8"/>
+                     </div>
+                     <div>
+                         <h3 class="text-black text-[19px] font-semibold mt-4">Chicken Ramen Soup with Mushroom </h3>
+                     </div>
+                     <div class="flex mt-6 gap-x-5">
+                         <div class="flex items-center gap-x-3  py-2">
+                             <img src="../assets/Timer.svg" alt="timer"/>
+                             <p class="text-xs">30 minutes</p>
+                         </div>
+                         <div class="  flex items-center gap-x-3 py-2">
+                             <img src="../assets/ForkKnife.svg" alt="ForkKnife"/>
+                             <p class="text-xs">Japanese</p>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+          </section>
+
+          <!-- delicious recipe -->
+         <section class="px-20 py-6 mt-10">
+            <section class="relative bg-[#E7F9FD] py-20 rounded-[60px]">
+                <div class="flex flex-col justify-center items-center gap-y-5 max-w-[450px] mx-auto">
+                   <h3 class="text-black text-3xl text-center font-semibold">Deliciousness to your inbox</h3>
+                   <p class="text-center text-xs text-[#000000]/60">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                   <div class="flex flex-row gap-x-4 bg-white p-3 rounded-[24px] mt-7">
+                    <input class="outline-none border-none pl-4" type="text" placeholder="Your email address..." />
+                    <button class="bg-black text-white px-7 py-3 rounded-[1rem]">Subscribe</button>
+                   </div>
+                </div>
+
+                <img src="../assets/veggies.svg" alt="veggies1" class="hidden md:block absolute top-[5%] rounded-bl-[60px] " width="350px"/>
+                <img src="../assets/veggies2.svg" alt="veggies2" class="hidden md:block absolute right-0 rounded-br-[60px] top-[45%]" width="300px"/>
+             </section>
+         </section>
+
+
+           <!-- last section -->
+            <footer>
+            <section class="flex flex-row justify-between mt-20 py-6 px-20">
+                <div>
+                    <img src="../assets/logo.svg" alt="logo"/>
+                    <p class="mt-5 text-[#000000]/60">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+                </div>  
+                <nav>
+                    <ul class="flex flex-row gap-x-10">
+                        <li><a href="./about.html">Recipes</a></li>
+                        <li><a href="./contact.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./contact.html">About Us</a></li>
+                    </ul>
+                </nav>   
+            </section>
+
+           
+             <section class="flex flex-row justify-between border border-[#0000001A]/10 py-6 px-20">
+                    <div></div>
+                    <div>
+                        <h3 class="text-[#000000]/60">© 2020 Flowbase. Powered by <span class="text-red-500"><a href="www.webflow.com">Webflow</a></span></h3>
+                    </div>
+                <div class="flex flex-row gap-x-5">
+                    <img src="../assets/facebook.svg" alt="facebook"/>
+                    <img src="../assets/twitter.svg" alt="twitter"/>
+                    <img src="../assets/instagram.svg" alt="instagram"/>
+                </div>
+             </section>
+            </footer>
+    </main>
+</body>
+</html>
